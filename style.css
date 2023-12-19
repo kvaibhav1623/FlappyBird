@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+canvas {
+    display: block;
+    background-color: hwb(106 11% 15%);
+    margin: 20px auto;
+}
+#footer {
+    text-align: center;
+    padding: 0.3;
+    background-color: #8dd7e4;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 204, 0, 0.8); /* Fun theme color */
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #3498db;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#restartButton, #startButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71; /* Fun theme color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    /* background: #04bc07; */
+}
